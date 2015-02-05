@@ -163,12 +163,6 @@ a:focus {
     font-size: 18px;
 }
 
-.intro .intro-body .browse {
-    font-family: 'PT Sans Narrow', sans-serif;
-    margin-top:40px;
-    font-size:40px;
-}
-
 @media(min-width:767px) {
     .intro {
         height: 100%;
@@ -180,6 +174,92 @@ a:focus {
     }
 
     .intro .intro-body .intro-text {
+        font-size: 25px;
+    }
+}
+
+.login {
+    display: table;
+    width: 100%;
+    height: auto;
+    padding: 100px 0;
+    text-align: center;
+    color: #fff;
+    background: url(../img/blue.jpeg) no-repeat bottom center scroll;
+    background-color: #fff;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.login .login-body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.login .login-body .brand-heading {
+    font-size: 40px;
+}
+
+.login .login-body .login-text {
+    font-size: 18px;
+}
+
+@media(min-width:767px) {
+    .login {
+        height: 100%;
+        padding: 0;
+    }
+
+    .login .login-body .brand-heading {
+        font-size: 100px;
+    }
+
+    .login .login-body .login-text {
+        font-size: 25px;
+    }
+}
+
+.signup {
+    display: table;
+    width: 100%;
+    height: auto;
+    padding: 100px 0;
+    text-align: center;
+    color: #fff;
+    background: url(../img/lights.jpeg) no-repeat bottom center scroll;
+    background-color: #fff;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.signup .signup-body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.signup .signup-body .brand-heading {
+    font-size: 40px;
+}
+
+.signp .signup-body .signup-text {
+    font-size: 18px;
+}
+
+@media(min-width:767px) {
+    .signup {
+        height: 100%;
+        padding: 0;
+    }
+
+    .signup .signup-body .brand-heading {
+        font-size: 100px;
+    }
+
+    .signup .signup-body .login-text {
         font-size: 25px;
     }
 }
@@ -307,14 +387,14 @@ a:focus {
 .btn-default {
     border: 1px solid #FFFFCC;
     color: #FFFFCC;
-    font-size:25px;
+    font-size:30px;
     background-color: transparent;
-    margin-left:40px;
-    margin-right:40px;
-    padding-left:30px;
-    padding-right:30px;
-    padding-top:20px;
-    padding-bottom:20px;
+    margin-left:10px;
+    margin-right:10px;
+    padding-left:40px;
+    padding-right:40px;
+    padding-top:25px;
+    padding-bottom:25px;
 }
 
 .btn-default:hover,
@@ -378,3 +458,21 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
 }
+
+.btn-primary {
+    color:#fff;
+    background-color:transparent;
+    border-color:#fff;
+}
+
+.btn-primary:hover {
+    color:#000;
+    background-color:#FFFFCC;
+    border-color:#fff;
+}
+
+button, input, select, textarea {
+    font-family:'PT Sans Narrow', sans-serif;
+
+}
+

@@ -49,7 +49,7 @@ p {
 }
 
 a {
-    color: #219ab3;
+    color: #fff;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
@@ -58,7 +58,7 @@ a {
 a:hover,
 a:focus {
     text-decoration: none;
-    color: #11505d;
+    color: #FFFFCC;
 }
 
 .light {
@@ -463,6 +463,9 @@ body {
     color:#fff;
     background-color:transparent;
     border-color:#fff;
+}
+.btn-primary:a {
+    color:#FFFFCC;
 }
 
 .btn-primary:hover {

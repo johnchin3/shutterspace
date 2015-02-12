@@ -9,7 +9,7 @@ body {
     height: 100%;
     font-family: 'Dancing Script', cursive;
     color: #fff;
-    background-color: #000;
+    background-color: #fff;
 }
 
 html {
@@ -575,3 +575,72 @@ button, input, select, textarea {
 
 }
 
+@media(max-width:767px) {
+    .venmoimg {
+        text-align:center;
+        width:20%;
+        margin-left:40%;
+        margin-right:20%;
+        padding-top:5%;
+        padding-bottom:5%;
+    }
+
+    .venmo-btn{
+        position:fixed;
+        width: 80px;
+        padding-top:10px;
+        padding-bottom:10px;
+        left:40%;
+    }
+
+    .venmoname{
+        color:#000000;
+        text-transform:none;
+        text-align: center;
+    }
+
+    .venmoreq{
+        text-align:center;
+        top:50%;
+        position:fixed;
+        left:35%;
+    }
+
+    .venmopay{
+        text-align:center;
+        top:60%;
+        position:fixed;
+    }
+
+    .venmoinput{
+        position: fixed;
+        left:27%;
+        height:46px;
+        border-radius:6px;
+        line-height:1.333;
+        font-size: 18px;
+        width:150px;
+    }
+
+    .venmoney{
+        position:fixed;
+        left:27%;
+        height:46px;
+        border-radius:6px;
+        line-height:1.333;
+        font-size: 18px;
+        width:150px;
+        top:17%;
+    }
+
+    .venmodescription{
+        position:fixed;
+        left:4%;
+        height:100px;
+        border-radius:6px;
+        line-height:1.3333;
+        font-size:18px;
+        width:300px;
+        top:27%;
+    }
+}
